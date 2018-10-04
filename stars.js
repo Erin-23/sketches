@@ -15,7 +15,7 @@ class Star {
 
 	moveLeft(){
 		this.x = this.x-0.0001;
-		this.y = this.oy + 0.1*Math.pow(stars[0].x-stars[0].ox,2);
+		this.y = this.oy + 0.1*Math.pow(this.x-this.ox,2);
 	}
 }
 
